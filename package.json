@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Track word file changes",
   "scripts": {
-    //"test": "grunt nodeunit"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +17,7 @@
   "license": "MIT",
   "preferGlobal": true,
   "bin": {
-    "filesearch": "index.js"
+    "track_word": "index.js"
   },
   "bugs": {
     "url": "https://github.com/kopz9999/track_word_changes/issues"
