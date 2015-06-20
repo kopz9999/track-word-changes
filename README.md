@@ -30,3 +30,5 @@ $ track_word --overwrite=false path-to-my-file/Example.docx
 ```
 
 The above line will create a copy of Example.docx with name **Example_{timestamp}.docx**
+
+You can take a look at the demo video to check functionality: [Demo](Demo.mov)
