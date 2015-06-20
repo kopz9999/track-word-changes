@@ -6,6 +6,7 @@ This repository contains a command line tool that turns on track changes for a w
 
 ```
 $ git clone https://github.com/kopz9999/track_word_changes
+$ cd track_word_changes
 $ npm link
 $ track_word path-to-my-file/Example.docx
 ```
