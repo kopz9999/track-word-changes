@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/kopz9999/track_word_changes/issues"
   },
+  "dependencies": {
+    "adm-zip": ">= 0.4.7",
+    "express": ">= 4.12.4",
+    "fs-extra": ">= 0.20.0",
+    "i18n": ">= 0.5.0",
+    "minimist": ">= 1.1.1",
+    "xmldom": ">= 0.1.19",
+    "xpath": ">= 0.0.9"
+  },
   "homepage": "https://github.com/kopz9999/track_word_changes"
 }
