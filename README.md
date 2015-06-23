@@ -2,6 +2,22 @@
 
 This repository contains a command line tool that turns on track changes for a word document.
 
+# Requirements
+
+In order to provide compatibility with Word 93-2003, you need the *unoconv* utility. If you are working with Ubuntu, you must install the following command line utility: [unoconv](https://apps.ubuntu.com/cat/applications/unoconv)
+
+## Mac and Windows
+
+If you are working on MAC or Windows, you need to install [Libre Office](https://www.libreoffice.org). After installing, clone the [unoconv repository](https://github.com/dagwieers/unoconv). At this point, you must create the following environment variable storing the location of the unoconv python script: 
+
+```
+$ export UNOCONV_PATH=/path-of-unoconv-python-script
+```
+
+After that, you must install one of the following scripts in the user binaries:
+- [Mac Shell](shell/unoconv.sh)
+- [Windows Bat](shell/unoconv.bat)
+
 # Basic Usage
 
 ```
