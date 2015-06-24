@@ -9,6 +9,23 @@ var userArgs = minimist(process.argv.slice(2));
 var handlers = [];
 var fileTrackerPtr = null;
 
+// Swap variables
+var overwriteOpt, overwrite, revisionTrackOpt, revisionTrack;
+
+// Helper functions
+var printWordDocumentHandlerSuccess = function(wordDocumentHandler) {
+  var str = "Successfully Processed: " + wordDocumentHandler.filePath;
+  console.log(str);
+};
+
+var printWordDocumentHandlerError = function(wordDocumentHandler) {
+  var str = "Failed to Process: " + wordDocumentHandler.filePath;
+  console.log(str);
+  wordDocumentHandler.errors.forEach(function( errObj ){
+    console.log(errObj.message);
+  });
+};
+
 userArgs['_'].forEach(function(filePath) {
   overwriteOpt = userArgs['overwrite'];
   overwrite = overwriteOpt === undefined ? true : 
@@ -28,8 +45,8 @@ handlers.forEach(function( tracker ) {
     ( revisionTrackOpt == 'true' );
   tracker.trackChanges( revisionTrack );
   if (tracker.errors.length > 0 ) {
-    tracker.errors.forEach(function( errObj ){
-      console.log(errObj.message);
-    });
+    printWordDocumentHandlerError(tracker);
+  } else {
+    printWordDocumentHandlerSuccess(tracker);
   }
 });

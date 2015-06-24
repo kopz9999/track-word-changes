@@ -1,3 +1,5 @@
 {
-	"errors.file_not_found": "Word document not found: %s"
+  "errors.file_not_found": "Word document not found",
+  "errors.invalid_extension": "Document has not valid a extension. The only extensions available are: %s",
+  "errors.conversion_failed": "File couldn't be converted to %s"
 }

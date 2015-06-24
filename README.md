@@ -18,6 +18,14 @@ After that, you must install one of the following scripts in the user binaries:
 - [Mac Shell](shell/unoconv.sh)
 - [Windows Bat](shell/unoconv.bat)
 
+### Unoconv Notes
+
+Please note that you need to **keep unoconv running in background to be able to use it as other user**. In order to open a port, you must be logged as sudo:
+
+```
+$ sudo unoconv --listener
+```
+
 # Basic Usage
 
 ```
