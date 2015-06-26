@@ -31,5 +31,7 @@
     "xmldom": ">= 0.1.19",
     "xpath": ">= 0.0.9"
   },
+  "devDependencies": {
+  },
   "homepage": "https://github.com/kopz9999/track_word_changes"
 }

@@ -29,9 +29,7 @@ $ sudo unoconv --listener
 # Basic Usage
 
 ```
-$ git clone https://github.com/kopz9999/track_word_changes
-$ cd track_word_changes
-$ npm link
+$ npm install --global kopz9999/track_word_changes
 $ track_word path-to-my-file/Example.docx
 ```
 
@@ -56,3 +54,13 @@ $ track_word --overwrite=false path-to-my-file/Example.docx
 The above line will create a copy of Example.docx with name **Example_{timestamp}.docx**
 
 You can take a look at the demo video to check functionality: [Demo](https://www.dropbox.com/s/523c3osmtj66zqf/Demo.mov?dl=0)
+
+### Notes
+
+The path *spec/fixtures/files* contains sample files to test:
+- testfile.docx
+  - Word document without revision enabled
+- testfile2.docx
+  - Word document with revision enabled
+- testfileold.doc
+  - Word document with 1997-2003 format
