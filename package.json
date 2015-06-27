@@ -30,7 +30,8 @@
     "minimist": ">= 1.1.1",
     "xmldom": ">= 0.1.19",
     "xpath": ">= 0.0.9",
-    "mmmagic": ">= 0.3.14"
+    "mmmagic": ">= 0.3.14",
+    "js-array-extensions": ">= 1.0.8"
   },
   "homepage": "https://github.com/kopz9999/track-word-changes"
 }
