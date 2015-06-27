@@ -29,7 +29,7 @@ $ sudo unoconv --listener
 # Basic Usage
 
 ```
-$ npm install --global kopz9999/track_word_changes
+$ npm install --global kopz9999/track-word-changes
 $ track_word path-to-my-file/Example.docx
 ```
 

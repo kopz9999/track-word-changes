@@ -1,5 +1,5 @@
 {
-  "name": "track_word_changes",
+  "name": "track-word-changes",
   "version": "1.0.0",
   "description": "Track word file changes",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kopz9999/track_word_changes"
+    "url": "https://github.com/kopz9999/track-word-changes"
   },
   "keywords": [
     "word",
@@ -20,7 +20,7 @@
     "track_word": "index.js"
   },
   "bugs": {
-    "url": "https://github.com/kopz9999/track_word_changes/issues"
+    "url": "https://github.com/kopz9999/track-word-changes/issues"
   },
   "dependencies": {
     "adm-zip": ">= 0.4.7",
@@ -29,9 +29,8 @@
     "i18n": ">= 0.5.0",
     "minimist": ">= 1.1.1",
     "xmldom": ">= 0.1.19",
-    "xpath": ">= 0.0.9"
+    "xpath": ">= 0.0.9",
+    "mmmagic": ">= 0.3.14"
   },
-  "devDependencies": {
-  },
-  "homepage": "https://github.com/kopz9999/track_word_changes"
+  "homepage": "https://github.com/kopz9999/track-word-changes"
 }
